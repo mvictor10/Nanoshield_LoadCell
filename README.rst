@@ -3,7 +3,7 @@ Nanoshield_LoadCell
 
 Esta é uma biblioteca Arduino para medir peso usando células de carga e o IC ADS1230 da Texas Instruments.
 
-* Código fonte: https://github.com/circuitar/Nanoshield_LoadCell
+* Código fonte: https://github.com/mvictor10/Nanoshield_LoadCell
 * Documentação: http://nanoshield-loadcell.readthedocs.org/
 * Placa de referência: `LoadCell Nanoshield`_ da Circuitar_
 
@@ -33,14 +33,14 @@ Os seguintes exemplos_ são fornecidos:
 
 .. _`LoadCell Nanoshield`: https://www.circuitar.com/nanoshields/modules/loadcell/
 .. _Circuitar: https://www.circuitar.com/
-.. _examples: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/
-.. _ReadWeight: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/ReadWeight/ReadWeight.ino
-.. _LcdDigitalWeightScale: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/LcdDigitalWeightScale/LcdDigitalWeightScale.ino
-.. _MultiWeight: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/MultiWeight/MultiWeight.ino
-.. _ReadRawValue: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/ReadRawValue/ReadRawValue.ino
-.. _ReadWeightNoAveraging: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/ReadWeightNoAveraging/ReadWeightNoAveraging.ino
-.. _ReadWeightLowGain: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/ReadWeightLowGain/ReadWeightLowGain.ino
-.. _OffsetCalibration: https://github.com/circuitar/Nanoshield_LoadCell/blob/master/examples/OffsetCalibration/OffsetCalibration.ino
+.. _examples: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/
+.. _ReadWeight: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/ReadWeight/ReadWeight.ino
+.. _LcdDigitalWeightScale: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/LcdDigitalWeightScale/LcdDigitalWeightScale.ino
+.. _MultiWeight: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/MultiWeight/MultiWeight.ino
+.. _ReadRawValue: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/ReadRawValue/ReadRawValue.ino
+.. _ReadWeightNoAveraging: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/ReadWeightNoAveraging/ReadWeightNoAveraging.ino
+.. _ReadWeightLowGain: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/ReadWeightLowGain/ReadWeightLowGain.ino
+.. _OffsetCalibration: https://github.com/mvictor10/Nanoshield_LoadCell/blob/master/examples/OffsetCalibration/OffsetCalibration.ino
 
 ----
 
