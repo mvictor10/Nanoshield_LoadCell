@@ -1,35 +1,35 @@
 Nanoshield_LoadCell
 ===================
 
-This is an Arduino library to measure weight using load cells and the ADS1230 IC from Texas Instruments.
+Esta é uma biblioteca Arduino para medir peso usando células de carga e o IC ADS1230 da Texas Instruments.
 
-* Source code: https://github.com/circuitar/Nanoshield_LoadCell
-* Documentation: http://nanoshield-loadcell.readthedocs.org/
-* Reference board: `LoadCell Nanoshield`_ from Circuitar_
+* Código fonte: https://github.com/circuitar/Nanoshield_LoadCell
+* Documentação: http://nanoshield-loadcell.readthedocs.org/
+* Placa de referência: `LoadCell Nanoshield`_ da Circuitar_
 
-Library features include:
+Os recursos da biblioteca incluem:
 
-* Conversion to weight units, based on load cell capacity and sensitivity
-* Moving average filter, with configurable number of samples
-* Set zero weight point (tare)
-* Get measurement in weight units or raw 20-bit value
-* Continuous sampling using hardware timer (Timer 2)
-* ADS1230 offset calibration
+* Conversão para unidades de peso, com base na capacidade e sensibilidade da célula de carga
+* Filtro de média móvel, com número configurável de amostras
+* Definir ponto de peso zero (tara)
+* Obtenha medidas em unidades de peso ou valor bruto de 20 bits
+* Amostragem contínua usando temporizador de hardware (Timer 2)
+* Calibração de deslocamento ADS1230
 
-**Note**: this library uses Timer 2 on the ATmega microcontroller, or Timer 5 on ATmega2560 and ATmega1280.
-On ATmega168 and ATmega328 (i.e. Arduino UNO or similar), usage of this library will interfere with the `tone()` function.
+**Nota**: esta biblioteca usa Timer 2 no microcontrolador ATmega, ou Timer 5 em ATmega2560 e ATmega1280.
+No ATmega168 e ATmega328 (ou seja, Arduino UNO ou similar), o uso desta biblioteca irá interferir com a função `tone()`.
 
-To install, just click **Download ZIP** and install it using **Sketch > Include Library... > Add .ZIP Library** in the Arduino IDE.
+Para instalar, basta clicar em **Download ZIP** e instalá-lo usando **Sketch > Include Library... > Add .ZIP Library** no Arduino IDE.
 
-The following examples_ are provided:
+Os seguintes exemplos_ são fornecidos:
 
-* ReadWeight_ shows how to do a simple weight measurement using a load cell.
-* LcdDigitalWeightScale_ a digital weight scale using a load cell and an LCD display.
-* MultiWeight_ shows how to read more than one weight using multiple load cells.
-* ReadRawValue_ reads the raw 20-bit integer value from the ADS1230 IC.
-* ReadWeightNoAveraging_ reads weight without averaging (default is to average the last 10 samples).
-* ReadWeightLowGain_ uses low gain to measure a wider weight range.
-* OffsetCalibration_ shows how to use offset calibration.
+* ReadWeight_ mostra como fazer uma medição de peso simples usando uma célula de carga.
+* LcdDigitalWeightScale_ uma balança de peso digital usando uma célula de carga e um display LCD.
+* MultiWeight_ mostra como ler mais de um peso usando várias células de carga.
+* ReadRawValue_ lê o valor inteiro bruto de 20 bits do IC ADS1230.
+* ReadWeightNoAveraging_ lê o peso sem calcular a média (o padrão é calcular a média das últimas 10 amostras).
+* ReadWeightLowGain_ usa ganho baixo para medir uma faixa de peso mais ampla.
+* OffsetCalibration_ mostra como usar a calibração de deslocamento.
 
 .. _`LoadCell Nanoshield`: https://www.circuitar.com/nanoshields/modules/loadcell/
 .. _Circuitar: https://www.circuitar.com/
@@ -45,6 +45,6 @@ The following examples_ are provided:
 ----
 
 Copyright (c) 2015 Circuitar
-All rights reserved.
+Todos os direitos reservados.
 
-This software is released under an MIT license. See the attached LICENSE file for details.
+Este software é lançado sob uma licença MIT. Consulte o arquivo de LICENÇA em anexo para obter detalhes.
